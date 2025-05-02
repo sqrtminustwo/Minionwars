@@ -8,6 +8,9 @@ During each turn, a player must make tactical decisions: whether to move minions
 
 The game continues until one player has no minions remaining on the board.
 
+> <img src="images/overview2.png" alt="Overview" />
+> <p>Game overview.</p>
+
 ## Requirements
 
 This project uses the following Java modules:
