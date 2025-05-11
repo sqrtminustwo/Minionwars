@@ -1,6 +1,6 @@
 # Minion Wars
 
-**Minion Wars** is a simple yet strategic two-player game developed in **Java 21** using **JavaFX 21**.
+Minion Wars is a simple yet strategic two-player game developed in *Java 21* using *JavaFX 21*, created as a first-year [project](https://github.ugent.be/Prog2/Objprog-project-2024-2025) for the Object-Oriented Programming (OOP) course at GHENT University.
 
 In this game, players take turns deploying their minions on their respective sides of the battlefield. Once both players confirm they are ready, the battle begins.
 
