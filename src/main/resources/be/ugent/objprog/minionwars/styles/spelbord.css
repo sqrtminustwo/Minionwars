@@ -1,0 +1,182 @@
+.scroll-pane {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.SpelVeldScrollPane {
+    -fx-background: black;
+    -fx-background-color: black;
+}
+
+.SelectedInfoPanel, .MinionSelected, .FireballSelected, .HealSelected {
+    -fx-alignment: center-left;
+    -fx-border-width: 2px;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.MinionSelected {
+    -fx-border-color: linear-gradient(to right, #ff4e50, #fc913a);
+    -fx-background-color: rgba(255, 76, 76, 0.2);
+    -fx-effect: dropshadow(gaussian, rgba(255, 76, 76, 0.5), 10, 0, 0, 3);
+}
+
+.FireballSelected {
+    -fx-border-color: linear-gradient(to right, #fb6700, #cc7a3f);
+    -fx-background-color: rgba(170, 95, 13, 0.2);
+    -fx-effect: dropshadow(gaussian, rgba(209, 119, 0, 0.5), 10, 0, 0, 3);
+}
+
+.HealSelected {
+    -fx-border-color: linear-gradient(to right, #e3b835, #a19130);
+    -fx-background-color: rgba(255, 248, 41, 0.2);
+    -fx-effect: dropshadow(gaussian, rgba(204, 158, 13, 0.5), 10, 0, 0, 3);
+}
+
+.LightingSelected {
+    -fx-border-color: linear-gradient(to right, #1769b6, #55a3e4);
+    -fx-background-color: rgba(21, 97, 151, 0.2);
+    -fx-effect: dropshadow(gaussian, rgba(23, 111, 198, 0.5), 10, 0, 0, 3);
+}
+
+.MinionPanel, .MinionMain, .MinionMainNotActive, .FieldOverviewMain,
+.MinionSelected, .FireballSelected, .HealSelected,
+.LightingSelected, .MinionNotActive, .InfoPanelLabel,
+.PowerPanel, .PowerNotActive, .EffectLabel,
+.InfoPanelStatsOverview Label {
+    -fx-text-fill: black;
+    -fx-wrap-text: true;
+    -fx-max-width: infinity;
+    -fx-alignment: center-left;
+    -fx-text-alignment: center;
+}
+
+.MinionPanel, .FieldOverviewMain, .PowerPanel,
+.MinionNotActive, .PowerNotActive {
+    -fx-border-color: rgba(128, 128, 128, 0.5);
+}
+
+.MinionNotActive, .PowerNotActive, .MinionMainNotActive {
+    -fx-opacity: 0.5;
+}
+.MinionPanel, .MinionMain, .FieldOverviewMain, .PowerPanel {
+    -fx-opacity: 1;
+}
+
+.MinionPanel:hover, .PowerPanel:hover {
+    -fx-border-color: black;
+}
+
+.MinionPanel, .MinionMain, .MinionMainNotActive, .FieldOverviewMain, .MinionNotActive {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.MinionPanel, .MinionMain, .MinionMainNotActive, .FieldOverviewMain,
+.MinionSelected, .FireballSelected, .HealSelected,
+.LightingSelected, .MinionNotActive, .InfoPanelLabel,
+.PowerPanel, .PowerNotActive {
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+}
+
+.EffectLabel {
+    -fx-opacity: 0.6;
+    -fx-font-size: 10pt;
+}
+
+.InfoPanelStatsOverview Label {
+    -fx-font-weight: bold;
+    -fx-padding: 0;
+    -fx-text-overrun: clip;
+    -fx-font-size: 10pt;
+}
+
+.Playerinfo {
+    -fx-alignment: center;
+}
+
+.Playerinfo Label {
+    -fx-font-size: 15pt;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 0;
+}
+
+.CostLabel {
+    -fx-text-fill: #FFB900;
+}
+
+.MinionInfoLabel {
+    -fx-text-fill: #0073FF;
+}
+
+.PrimaryLabel {
+    -fx-text-fill: #D60000;
+}
+
+.RadiusLabel {
+    -fx-text-fill: #119533;
+}
+
+.DurationLabel {
+    -fx-text-fill: #0073FF;
+}
+
+.button, .toggle-button {
+    -fx-alignment: center;
+    -fx-opacity: 0.7;
+}
+
+.button:hover, .toggle-button:hover {
+    -fx-opacity: 1;
+}
+
+.ButtonUsed {
+    -fx-opacity: 0.4;
+}
+
+.button, .toggle-button, .ButtonUsed {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 11px;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+    -fx-padding: 5px 10px;
+}
+
+.SelectedButton {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 11px;
+    -fx-padding: 5px 10px;
+    -fx-effect: dropshadow(gaussian, red, 10, 0.5, 0, 0);
+    -fx-background-insets: 5;
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -fx-opacity: 1;
+}
+
+.GameInfoTab {
+    -fx-background-color: transparent;
+    -fx-opacity: 1;
+}
+
+.GameInfoTabUsed {
+    -fx-background-color: transparent;
+    -fx-opacity: 0.4;
+}
+
+.GameInfoTab .vbox {
+    -fx-padding: 20px;
+}
+
+.GameInfoTab .label, .GameInfoTabUsed .label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,70 @@
+.RootPane {
+    -fx-alignment: center;
+    -fx-background-image: url("../images/splash-start.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100%;
+}
+
+.StartScherm {
+    -fx-alignment: center;
+    -fx-spacing: 50;
+    -fx-pref-width: 90%;
+    -fx-pref-height: 90%;
+    -fx-font-size: 20px;
+}
+.StartScherm TextField {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-faint-focus-color: white;
+}
+
+.StartScherm Label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 5, 0.2, 2, 2);
+}
+
+.Speler {
+    -fx-alignment: inherit;
+    -fx-spacing: 30;
+}
+
+.Munten {
+    -fx-alignment: inherit;
+    -fx-spacing: 30;
+    -fx-border-color: transparent;
+}
+
+.StartSpel {
+    -fx-background-color: black;
+    -fx-opacity: 0.6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 11px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-padding: 5px 10px;
+}
+
+.StartSpel:hover {
+    -fx-opacity: 0.8;
+}
+
+.Error {
+    -fx-alignment: inherit;
+    -fx-spacing: 30;
+}
+
+.Error TextField {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -fx-faint-focus-color: transparent;
+}
+
+.ErrorLabel {
+    -fx-text-fill: red;
+    -fx-effect: inherit;
+    -fx-font-size: 15px;
+}
