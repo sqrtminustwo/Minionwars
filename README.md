@@ -50,7 +50,7 @@ To allow aspects of the game to be adjusted without modifying the source code, w
 > 
 > Example:
 > ```
-> ./minion-wars folder1/folder2/.../configuratie.xml
+> ./minion-wars folder1/folder2/.../configuration.xml
 > ```
 
 The configuration file is written in XML and contains the following sections:
