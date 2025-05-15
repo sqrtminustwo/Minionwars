@@ -158,7 +158,7 @@ Example:
 Defines special powers that affect an area of the board. Each `<power>` tag can have the following attributes:
 
 * `name`: name of the power
-* `radius`: diameter of the area of effect
+* `radius`: of the area of effect
 * `value` (optional): damage or healing value
 * `effect` (optional): effect applied by the power
 * `effect-value` (optional): overrides the `value` attribute of the effect
@@ -200,6 +200,6 @@ Example:
 * `<dirt>`: a basic walkable tile with no special effects
 * `<forest>`: walkable, but it slows your minions down by 1
 * `<mountains>`: walkable, but you can't attack from here
-* `<water>`: not walkable, minions can’t move through it
+* `<water>`: not walkable, minions can't move through it
 
 </details>
