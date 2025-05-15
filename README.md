@@ -8,7 +8,7 @@ During each turn, a player must make tactical decisions: whether to move minions
 
 The game continues until one player has no minions remaining on the board.
 
-> <img src="images/overview2.png" alt="Overview" />
+> <img src="src/main/resources/be/ugent/objprog/minionwars/images/overview2.png" alt="Overview" />
 > <p>Game overview.</p>
 
 ## Requirements
@@ -24,6 +24,10 @@ open module be.ugent.objprog.minionwars {
     exports be.ugent.objprog.minionwars;
 }
 ```
+
+> [!NOTE]
+> Source code is provided as an IntelliJ project; therefore, the .idea folder is included. To use the project in another IDE, you may want to delete this folder.
+
 ## Launching the game
 
 Use the following commands to launch the program with JavaFX and required dependencies:
